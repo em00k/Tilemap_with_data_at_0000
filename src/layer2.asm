@@ -38,7 +38,11 @@ clsL2:
 
     ret     
 
+
 draw_map:
+
+    ; draws 768 tiles from 0,0 to fille the screen 
+    ; IN IX > map to draw 
 
     ld          a, 0            ; black 
     call        clsL2           ; clear L2 
