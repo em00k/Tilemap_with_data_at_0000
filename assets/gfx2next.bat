@@ -1,0 +1,1 @@
+gfx2next -tile-size=8x8 -tile-norepeat -pal-std -preview testmap.bmp
